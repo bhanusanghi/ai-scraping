@@ -8,8 +8,9 @@ OPENROUTER_API_KEY = os.getenv('OPENROUTER_API_KEY')
 graph_config = {
     "llm": {
         "api_key": OPENROUTER_API_KEY,
-        "model": "anthropic/claude-3-sonnet-20240229",
-        "api_base": "https://openrouter.ai/api/v1",
+        "model": "openai/gpt-4",
+        "openai_api_base": "https://openrouter.ai/api/v1",
+        # "model_type": "openai",
     },
     "embeddings": {
         "model": "ollama/nomic-embed-text",  # Specifies the embedding model to use
@@ -24,11 +25,31 @@ graph_config = {
 }
 
 
-baseUrl = "https://ai16z.github.io/eliza/docs/"
+baseUrl = "https://elizaos.github.io/eliza/docs/"
 # List of URLs to scrape
 urls = [
-    "quickstart/",
-    "core/characterfile/",
+    # "quickstart/",
+    # "core/characterfile/",
+    "core/agents/",
+    "core/providers/",
+    "core/actions/",
+    "core/evaluators/",
+    "guides/configuration/",
+    "guides/advanced/",
+    "guides/secrets-management/",
+    "guides/local-development/",
+    "guides/wsl/",
+    "advanced/fine-tuning/",
+    "advanced/infrastructure/",
+    "advanced/trust-engine/",
+    "advanced/autonomous-trading/",
+    "advanced/eliza-in-tee/",
+    "packages/",
+    "packages/core/",
+    "packages/adapters/",
+    "packages/clients/",
+    "packages/agent/",
+    "packages/plugins/"
 ]
 
 # Process each URL
