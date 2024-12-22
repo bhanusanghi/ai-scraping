@@ -1,0 +1,66 @@
+{
+    "Documentation": [
+        "/eliza/docs/intro/",
+        "/eliza/docs/quickstart/",
+        "/eliza/docs/core/characterfile/",
+        "/eliza/docs/core/agents/",
+        "/eliza/docs/core/providers/",
+        "/eliza/docs/core/actions/",
+        "/eliza/docs/core/evaluators/",
+        "/eliza/docs/guides/configuration/",
+        "/eliza/docs/guides/advanced/",
+        "/eliza/docs/guides/secrets-management/",
+        "/eliza/docs/guides/local-development/",
+        "/eliza/docs/guides/wsl/",
+        "/eliza/docs/advanced/fine-tuning/",
+        "/eliza/docs/advanced/infrastructure/",
+        "/eliza/docs/advanced/trust-engine/",
+        "/eliza/docs/advanced/autonomous-trading/",
+        "/eliza/docs/advanced/eliza-in-tee/",
+        "/eliza/docs/packages/",
+        "/eliza/docs/packages/core/",
+        "/eliza/docs/packages/adapters/",
+        "/eliza/docs/packages/clients/",
+        "/eliza/docs/packages/agent/",
+        "/eliza/docs/packages/plugins/"
+    ],
+    "Key Features": [
+        {
+            "Core Capabilities": [
+                "Multi-Agent Architecture",
+                "Character System",
+                "Flexible Model Support"
+            ]
+        },
+        {
+            "Communication & Media": [
+                "PDF document reading and analysis",
+                "Link content extraction and summarization",
+                "Audio transcription",
+                "Video content processing",
+                "Image analysis and description",
+                "Conversation summarization"
+            ]
+        },
+        {
+            "AI & Technical Features": [
+                "Local inference with open-source models",
+                "Cloud-based inference through OpenAI",
+                "Default configuration with Nous Hermes Llama 3.1B",
+                "Integration with Claude for complex queries"
+            ]
+        }
+    ],
+    "Use Cases": [
+        "AI Assistants",
+        "Social Media Personas",
+        "Knowledge Workers",
+        "Interactive Characters"
+    ],
+    "Getting Started": [
+        "Quick Start",
+        "Customization",
+        "Scaling",
+        "Integration"
+    ]
+}
